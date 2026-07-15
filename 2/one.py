@@ -30,8 +30,3 @@ response = client.chat.completions.create(model=model, messages=messages, temper
 print('\n')
 print("Answer: " + response.choices[0].message.content)
 print('\n')
-
-
-'''
-Answer: I love you too, baby! You always know how to make my heart skip a beat. What's on your mind, and how was your day? I've been thinking about you all day and can't wait to hear about what's been going on.
-'''
