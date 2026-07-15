@@ -1,0 +1,55 @@
+{
+    "name": "Sunan Rabbi",
+    "email": "sunanrabbi1918@gmail.com",
+    "contact_number": "+8801875899096",
+    "github_link": "github.com/sunan-rabbi",
+    "experience": [
+        {
+            "company_name": "SasthoTech",
+            "job_title": "Junior Software Engineer",
+            "start_date": "01/2025",
+            "end_date": "Present",
+            "responsibilities": "Build Digital Prescription Management System, Worked on Serial Management System, Developed dynamic report generation template, Developed fully responsive marketing landing webpage",
+            "work_details": "SasthoTech is a Rajshahi-based health-tech company providing SaaS tools that automate hospital and diagnostic workflows for faster, smoother care."
+        },
+        {
+            "company_name": "Neural-bind",
+            "job_title": "Co-Founder & Software Engineer",
+            "start_date": "06/2025",
+            "end_date": "Present",
+            "responsibilities": "Built and deployed official website and landing page for Dream World Consultancy, Developed time and task management software, Building modern inventory management platform",
+            "work_details": "NeuralBind: Affordable custom software, web & mobile apps, digital marketing, cybersecurity, AI insights, driving digital growth."
+        }
+    ],
+    "projects": [
+        {
+            "project_name": "Bikroy",
+            "project_description": "Personal project",
+            "technologies_used": "JavaScript, React, Firebase",
+            "project_link": "https://bikroy-427cb.firebaseapp.com/"
+        },
+        {
+            "project_name": "Health Care Server",
+            "project_description": "Personal project",
+            "technologies_used": "Node.js, Express.js, MongoDB",
+            "project_link": "https://github.com/Sunan-1918/Health-Care-Server"
+        },
+        {
+            "project_name": "Translation App Demo",
+            "project_description": "Personal project",
+            "technologies_used": "React, Next.js, Vercel",
+            "project_link": "https://translation-orcin.vercel.app/"
+        },
+        {
+            "project_name": "Time Management",
+            "project_description": "Personal project",
+            "technologies_used": "React, Next.js, Vercel",
+            "project_link": "https://time-management-neuralbind.vercel.app/"
+        }
+    ],
+    "education": "BSc in Computer Science and Engineering, Rajshahi University of Engineering and Technology",
+    "awards": "Winner at UIHP COHORT 4(RUET), 1st place, 55k BDT seed funding",
+    "extracurricular_activities": "RUET Computing Society, RUET Career Forum, RUET Fitness Society",
+    "interests": "Web development, problem-solving, coding",
+    "match_rate": "80%"
+}
