@@ -316,8 +316,6 @@ def runAgentWithShowingThought():
                 toolName = match.group(1)
                 toolInput = match.group(2).strip().strip('"').strip("'")
 
-                print(f"\n[Executing: {toolName}({toolInput})]")
-
                 if toolName in tools:
                     tool_fn = tools[toolName]
                     observation = tool_fn(toolInput) if toolInput else tool_fn()

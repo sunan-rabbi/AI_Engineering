@@ -102,8 +102,6 @@ def runAgent(question):
             messages=message,
             temperature=0
         )
-        print("is done?")
-
         answer= response.choices[0].message.content
 
         print(answer)
