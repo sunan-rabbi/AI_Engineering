@@ -63,5 +63,6 @@ def ask_llm(user):
     return answer
 
 question = "tell me sunan rabbi age"
+# question = "tell me how old is sunan rabbi"
 
 print(ask_llm(question))
