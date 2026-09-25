@@ -1,0 +1,3376 @@
+[
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "Welcome all.",
+    "start_time": 0.0,
+    "end_time": 1.0,
+    "timestamp": "00:00:00"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "From this presentation onwards, we will study a new subject that is data structures.",
+    "start_time": 1.0,
+    "end_time": 7.0,
+    "timestamp": "00:00:01"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "And in this presentation, I will introduce what data structure is",
+    "start_time": 7.0,
+    "end_time": 11.5,
+    "timestamp": "00:00:07"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "and some real life examples of data structures.",
+    "start_time": 11.5,
+    "end_time": 14.5,
+    "timestamp": "00:00:11"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "So, let's get started.",
+    "start_time": 14.5,
+    "end_time": 16.0,
+    "timestamp": "00:00:14"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "Before understanding what data structure is, let's first try to understand what is data.",
+    "start_time": 16.0,
+    "end_time": 21.5,
+    "timestamp": "00:00:16"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "This is a prerequisite. Okay?",
+    "start_time": 21.5,
+    "end_time": 23.5,
+    "timestamp": "00:00:21"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "The better definition could be a dictionary definition.",
+    "start_time": 25.0,
+    "end_time": 28.0,
+    "timestamp": "00:00:25"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "So let's see what is the dictionary definition of data.",
+    "start_time": 28.0,
+    "end_time": 31.0,
+    "timestamp": "00:00:28"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "The quantities, characters or symbols on which operations are performed by a computer",
+    "start_time": 32.0,
+    "end_time": 38.32,
+    "timestamp": "00:00:32"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "which may be stored and transmitted in the form of electrical signals",
+    "start_time": 38.32,
+    "end_time": 42.8,
+    "timestamp": "00:00:38"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "and recorded on magnetic, optical or mechanical recording media.",
+    "start_time": 42.8,
+    "end_time": 48.0,
+    "timestamp": "00:00:42"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "This is what data is. You can think of a data as quantities, characters or symbols",
+    "start_time": 48.0,
+    "end_time": 54.48,
+    "timestamp": "00:00:48"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "on which we can perform operations, we can store them, we can transmit them,",
+    "start_time": 54.48,
+    "end_time": 58.64,
+    "timestamp": "00:00:54"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "obviously in the form of electrical signals in our computer, right?",
+    "start_time": 58.64,
+    "end_time": 62.14,
+    "timestamp": "00:00:58"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "So, this is what a data is. Now, let's see one example here.",
+    "start_time": 62.14,
+    "end_time": 66.36,
+    "timestamp": "00:01:02"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "Here in this case, I am performing this operation on these two data, right?",
+    "start_time": 66.36,
+    "end_time": 71.02,
+    "timestamp": "00:01:06"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "We can think of these two as data because we are performing operations on them.",
+    "start_time": 71.02,
+    "end_time": 75.94,
+    "timestamp": "00:01:11"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "These are just quantities, right? We can store them, transmit them.",
+    "start_time": 75.94,
+    "end_time": 80.14,
+    "timestamp": "00:01:15"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "So, they are satisfying the properties of data.",
+    "start_time": 80.14,
+    "end_time": 82.74,
+    "timestamp": "00:01:20"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "So, I can say that these are my data.",
+    "start_time": 82.74,
+    "end_time": 85.74,
+    "timestamp": "00:01:22"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "Now, let's try to understand when data becomes information.",
+    "start_time": 85.74,
+    "end_time": 90.74,
+    "timestamp": "00:01:25"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "There is a distinction between data and an information.",
+    "start_time": 90.74,
+    "end_time": 94.74,
+    "timestamp": "00:01:30"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "And it is one such topic which is very confusing.",
+    "start_time": 94.74,
+    "end_time": 97.74,
+    "timestamp": "00:01:34"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "We often interchange these two terms, right?",
+    "start_time": 97.74,
+    "end_time": 100.74,
+    "timestamp": "00:01:37"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "But there is a distinction between data and information.",
+    "start_time": 100.74,
+    "end_time": 103.74,
+    "timestamp": "00:01:40"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "Let's try to understand what is that.",
+    "start_time": 103.74,
+    "end_time": 106.74,
+    "timestamp": "00:01:43"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "When I say just collection of characters like this,",
+    "start_time": 106.74,
+    "end_time": 109.74,
+    "timestamp": "00:01:46"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "or collection of symbols like this,",
+    "start_time": 109.74,
+    "end_time": 111.74,
+    "timestamp": "00:01:49"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "this, then this is just a data.",
+    "start_time": 111.74,
+    "end_time": 114.54,
+    "timestamp": "00:01:51"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "Because it is just a collection of characters,",
+    "start_time": 114.54,
+    "end_time": 116.86,
+    "timestamp": "00:01:54"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "I won't be able to understand it properly, right?",
+    "start_time": 116.86,
+    "end_time": 119.259995,
+    "timestamp": "00:01:56"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "Would you be able to tell me what exactly I have written over here?",
+    "start_time": 119.259995,
+    "end_time": 122.299995,
+    "timestamp": "00:01:59"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "No, right? But, when I process this data",
+    "start_time": 122.299995,
+    "end_time": 125.88,
+    "timestamp": "00:02:02"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "and let's say I reverse this whole string,",
+    "start_time": 125.88,
+    "end_time": 128.56,
+    "timestamp": "00:02:05"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "means the last character becomes the first character,",
+    "start_time": 128.56,
+    "end_time": 131.42,
+    "timestamp": "00:02:08"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "second last character becomes the second character,",
+    "start_time": 131.42,
+    "end_time": 133.98,
+    "timestamp": "00:02:11"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "and so on. Then it becomes an information.",
+    "start_time": 133.98,
+    "end_time": 137.42,
+    "timestamp": "00:02:13"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "Because, now I can read this",
+    "start_time": 137.42,
+    "end_time": 140.22,
+    "timestamp": "00:02:17"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "and I can understand what is written.",
+    "start_time": 140.22,
+    "end_time": 142.22,
+    "timestamp": "00:02:20"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "Here I have written my name is Jaspreet.",
+    "start_time": 142.22,
+    "end_time": 144.22,
+    "timestamp": "00:02:22"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "So, it is quite understandable.",
+    "start_time": 144.22,
+    "end_time": 146.22,
+    "timestamp": "00:02:24"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "So, I can say that now here",
+    "start_time": 146.22,
+    "end_time": 148.22,
+    "timestamp": "00:02:26"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "data becomes information",
+    "start_time": 148.22,
+    "end_time": 150.22,
+    "timestamp": "00:02:28"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "because I can extract some meaning from it.",
+    "start_time": 150.22,
+    "end_time": 152.22,
+    "timestamp": "00:02:30"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "So,",
+    "start_time": 152.22,
+    "end_time": 154.22,
+    "timestamp": "00:02:32"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "if data is arranged in a systematic way,",
+    "start_time": 154.22,
+    "end_time": 157.22,
+    "timestamp": "00:02:34"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "then it gets a structure",
+    "start_time": 157.22,
+    "end_time": 159.22,
+    "timestamp": "00:02:37"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "and become meaningful.",
+    "start_time": 159.22,
+    "end_time": 161.22,
+    "timestamp": "00:02:39"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "Here I have arranged the data",
+    "start_time": 161.22,
+    "end_time": 163.22,
+    "timestamp": "00:02:41"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "in such a way that it becomes meaningful for me Therefore I can say that this meaningful or processed data is called information Now it is not difficult for us to understand that",
+    "start_time": 163.22,
+    "end_time": 177.32281,
+    "timestamp": "00:02:43"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "the data needs to be managed in such a way",
+    "start_time": 177.32281,
+    "end_time": 180.32281,
+    "timestamp": "00:02:57"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "so that it can produce some meaningful information.",
+    "start_time": 180.32281,
+    "end_time": 183.32281,
+    "timestamp": "00:03:00"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "We need to arrange our data,",
+    "start_time": 183.32281,
+    "end_time": 185.32281,
+    "timestamp": "00:03:03"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "we need to manage our data in such a way",
+    "start_time": 185.32281,
+    "end_time": 188.32281,
+    "timestamp": "00:03:05"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "so that we can produce some meaningful information.",
+    "start_time": 188.32281,
+    "end_time": 191.32281,
+    "timestamp": "00:03:08"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "To provide an appropriate way to structure the data,",
+    "start_time": 192.32281,
+    "end_time": 195.52281,
+    "timestamp": "00:03:12"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "we need to know about data structures.",
+    "start_time": 195.52281,
+    "end_time": 198.92282,
+    "timestamp": "00:03:15"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "That is why it is so useful to understand data structures.",
+    "start_time": 198.92282,
+    "end_time": 202.92282,
+    "timestamp": "00:03:18"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "Data structure gives us the way to structure the data,",
+    "start_time": 202.92282,
+    "end_time": 206.12282,
+    "timestamp": "00:03:22"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "to appropriately manage the data,",
+    "start_time": 206.12282,
+    "end_time": 208.32281,
+    "timestamp": "00:03:26"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "so that we can get some meaningful information from it.",
+    "start_time": 208.32281,
+    "end_time": 211.92282,
+    "timestamp": "00:03:28"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "And not only that, we can use it whenever required in an efficient way.",
+    "start_time": 211.92282,
+    "end_time": 216.82281,
+    "timestamp": "00:03:31"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "This is the reason why companies are preferring this subject over other subjects.",
+    "start_time": 216.82281,
+    "end_time": 220.92282,
+    "timestamp": "00:03:36"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "It's because this is very important subject, right?",
+    "start_time": 220.92282,
+    "end_time": 223.92282,
+    "timestamp": "00:03:40"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "Now, let's understand what is a data structure.",
+    "start_time": 225.92282,
+    "end_time": 228.92282,
+    "timestamp": "00:03:45"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "A data structure is the systematic way to organize data",
+    "start_time": 230.42282,
+    "end_time": 233.92282,
+    "timestamp": "00:03:50"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "so that it can be used efficiently.",
+    "start_time": 233.92282,
+    "end_time": 236.92282,
+    "timestamp": "00:03:53"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "So, organizing the data in such a way",
+    "start_time": 236.92282,
+    "end_time": 239.92282,
+    "timestamp": "00:03:56"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "so that we can use it efficiently is what data structure is all about.",
+    "start_time": 239.92282,
+    "end_time": 244.92282,
+    "timestamp": "00:03:59"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "We are arranging the data, we are organizing the data,",
+    "start_time": 244.92282,
+    "end_time": 247.92282,
+    "timestamp": "00:04:04"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "the data, we are managing the data in such a way so that we can use it efficiently.",
+    "start_time": 247.92282,
+    "end_time": 252.32281,
+    "timestamp": "00:04:07"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "When I say efficiency, I mean in terms of time as well as space.",
+    "start_time": 252.32281,
+    "end_time": 256.48282,
+    "timestamp": "00:04:12"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "Let's see one example of a classical data structure, arrays.",
+    "start_time": 256.48282,
+    "end_time": 260.6628,
+    "timestamp": "00:04:16"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "We have used it many number of times.",
+    "start_time": 260.6628,
+    "end_time": 263.02283,
+    "timestamp": "00:04:20"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "We can think of it as a sequence or collection of some symbols, characters, integers, floats",
+    "start_time": 263.02283,
+    "end_time": 268.6228,
+    "timestamp": "00:04:23"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "or something like that, right?",
+    "start_time": 268.6228,
+    "end_time": 271.4428,
+    "timestamp": "00:04:28"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "You can think of array as a data structure because it is helping us in managing the data",
+    "start_time": 271.4428,
+    "end_time": 276.76282,
+    "timestamp": "00:04:31"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "in an appropriate way.",
+    "start_time": 276.76282,
+    "end_time": 278.14282,
+    "timestamp": "00:04:36"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "Actually, in a sequential manner.",
+    "start_time": 278.14282,
+    "end_time": 280.14282,
+    "timestamp": "00:04:38"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "Now, here is an example why this data structure is so useful.",
+    "start_time": 280.14282,
+    "end_time": 283.76282,
+    "timestamp": "00:04:40"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "Instead of creating multiple variables of same type,",
+    "start_time": 283.76282,
+    "end_time": 287.64282,
+    "timestamp": "00:04:43"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "why not create an array to store all the values?",
+    "start_time": 287.64282,
+    "end_time": 290.52283,
+    "timestamp": "00:04:47"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "Let's say, I need 100 integers.",
+    "start_time": 290.52283,
+    "end_time": 292.8428,
+    "timestamp": "00:04:50"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "Why do I require to create 100 variables for 100 integers",
+    "start_time": 292.8428,
+    "end_time": 296.1228,
+    "timestamp": "00:04:52"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "when I can create a single array",
+    "start_time": 296.1228,
+    "end_time": 298.1228,
+    "timestamp": "00:04:56"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "and store all the integers in them?",
+    "start_time": 298.1228,
+    "end_time": 300.1228,
+    "timestamp": "00:04:58"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "Isn't that so?",
+    "start_time": 300.1228,
+    "end_time": 301.1228,
+    "timestamp": "00:05:00"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "That is why arrays are so useful.",
+    "start_time": 301.1228,
+    "end_time": 303.1228,
+    "timestamp": "00:05:01"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "Or you can think of one example",
+    "start_time": 303.1228,
+    "end_time": 305.1228,
+    "timestamp": "00:05:03"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "like storing strings.",
+    "start_time": 305.1228,
+    "end_time": 306.52283,
+    "timestamp": "00:05:05"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "You know that strings are nothing but sequence of characters, right?",
+    "start_time": 306.52283,
+    "end_time": 310.2828,
+    "timestamp": "00:05:06"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "Let's say a string consists of 100 such characters.",
+    "start_time": 310.2828,
+    "end_time": 313.52283,
+    "timestamp": "00:05:10"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "Now, are you going to create 100 variables for that?",
+    "start_time": 313.52283,
+    "end_time": 316.76282,
+    "timestamp": "00:05:13"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "No. You can create one array which can store that whole string",
+    "start_time": 316.76282,
+    "end_time": 320.7228,
+    "timestamp": "00:05:16"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "and we would be able to access it very easily. Isn't that so?",
+    "start_time": 320.7228,
+    "end_time": 323.6028,
+    "timestamp": "00:05:20"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "So, this requires array and that is why we need arrays.",
+    "start_time": 323.6028,
+    "end_time": 326.8828,
+    "timestamp": "00:05:23"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "Because it helps us in managing our data in an appropriate way.",
+    "start_time": 326.8828,
+    "end_time": 330.8828,
+    "timestamp": "00:05:26"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "That is why it is a very useful data structure for us Now Let discuss some real life examples of data structures to help understand why do we need data structures",
+    "start_time": 330.8828,
+    "end_time": 343.24564,
+    "timestamp": "00:05:30"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "Here is an example.",
+    "start_time": 344.68564,
+    "end_time": 346.28564,
+    "timestamp": "00:05:44"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "Did you know that stacked data structure is used in implementing redo and undo feature?",
+    "start_time": 347.56564,
+    "end_time": 353.40564,
+    "timestamp": "00:05:47"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "You know, this is the famous feature which we are using many number of times in our applications, right?",
+    "start_time": 353.40564,
+    "end_time": 358.84564,
+    "timestamp": "00:05:53"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "One such application is Google docs or PowerPoint or Microsoft Word.",
+    "start_time": 358.84564,
+    "end_time": 364.44562,
+    "timestamp": "00:05:58"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "Redo and undo feature is very famous.",
+    "start_time": 364.44562,
+    "end_time": 366.94562,
+    "timestamp": "00:06:04"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "But did you know that stacked data structure is used in implementing this feature?",
+    "start_time": 366.94562,
+    "end_time": 371.08563,
+    "timestamp": "00:06:06"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "Let's see how.",
+    "start_time": 371.08563,
+    "end_time": 372.20563,
+    "timestamp": "00:06:11"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "Here I have taken an interface of Google docs.",
+    "start_time": 373.88562,
+    "end_time": 376.68564,
+    "timestamp": "00:06:13"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "Here I am going to write something.",
+    "start_time": 376.68564,
+    "end_time": 378.68564,
+    "timestamp": "00:06:16"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "Let's say, I have written the primary goal of Nasser Academy is to give quality education.",
+    "start_time": 378.68564,
+    "end_time": 384.44562,
+    "timestamp": "00:06:18"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "I want to write education here, but I forgot to mention here you.",
+    "start_time": 384.44562,
+    "end_time": 387.72562,
+    "timestamp": "00:06:24"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "So, instead I have written edcation, something like that.",
+    "start_time": 387.72562,
+    "end_time": 391.08563,
+    "timestamp": "00:06:27"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "Let me tell you that, here a stack is maintained",
+    "start_time": 391.08563,
+    "end_time": 395.08563,
+    "timestamp": "00:06:31"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "where each and every information that I have entered gets stored.",
+    "start_time": 395.08563,
+    "end_time": 398.92563,
+    "timestamp": "00:06:35"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "Like in this case, quality is stored, ed is stored separately,",
+    "start_time": 398.92563,
+    "end_time": 403.0056,
+    "timestamp": "00:06:38"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "cation is stored separately. So, this is our undo stack.",
+    "start_time": 403.0056,
+    "end_time": 406.76562,
+    "timestamp": "00:06:43"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "Okay. We know that in stack, the data is placed from top",
+    "start_time": 406.76562,
+    "end_time": 411.0056,
+    "timestamp": "00:06:46"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "and whenever we want to get the data, we can get it from the top.",
+    "start_time": 411.0056,
+    "end_time": 414.44562,
+    "timestamp": "00:06:51"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "Only the top element we can access. Right.",
+    "start_time": 414.44562,
+    "end_time": 417.40564,
+    "timestamp": "00:06:54"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "Now, when I press control z,",
+    "start_time": 417.40564,
+    "end_time": 420.16562,
+    "timestamp": "00:06:57"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "then I know it means undo.",
+    "start_time": 420.16562,
+    "end_time": 422.16562,
+    "timestamp": "00:07:00"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "Right? So, what it does is, it selects the top element",
+    "start_time": 422.16562,
+    "end_time": 425.48563,
+    "timestamp": "00:07:02"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "and it pops that element out of the stack",
+    "start_time": 425.48563,
+    "end_time": 428.48563,
+    "timestamp": "00:07:05"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "and placed it in the redo stack.",
+    "start_time": 428.48563,
+    "end_time": 430.48563,
+    "timestamp": "00:07:08"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "That is why we can see here,",
+    "start_time": 430.48563,
+    "end_time": 432.48563,
+    "timestamp": "00:07:10"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "that cation get removed when I press control z.",
+    "start_time": 432.48563,
+    "end_time": 435.48563,
+    "timestamp": "00:07:12"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "Control z means undo the operation which I have performed.",
+    "start_time": 435.48563,
+    "end_time": 439.04562,
+    "timestamp": "00:07:15"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "Here in this case, I have entered cation.",
+    "start_time": 439.04562,
+    "end_time": 441.04562,
+    "timestamp": "00:07:19"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "I just can remove that out of the stack",
+    "start_time": 441.04562,
+    "end_time": 443.6856,
+    "timestamp": "00:07:21"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "and then after that, that particular element",
+    "start_time": 443.6856,
+    "end_time": 446.04562,
+    "timestamp": "00:07:23"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "will get placed within this redo stack.",
+    "start_time": 446.04562,
+    "end_time": 448.04562,
+    "timestamp": "00:07:26"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "Why it is placed in this another stack?",
+    "start_time": 448.04562,
+    "end_time": 450.04562,
+    "timestamp": "00:07:28"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "Because when I press control y, that is redo,",
+    "start_time": 450.04562,
+    "end_time": 453.04562,
+    "timestamp": "00:07:30"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "then we can get that again.",
+    "start_time": 453.04562,
+    "end_time": 455.04562,
+    "timestamp": "00:07:33"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "That is this caisson, I would be able to get that again over here.",
+    "start_time": 455.04562,
+    "end_time": 458.04562,
+    "timestamp": "00:07:35"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "Maybe I want to redo my operation.",
+    "start_time": 458.04562,
+    "end_time": 461.04562,
+    "timestamp": "00:07:38"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "That is why redo stack is also required.",
+    "start_time": 461.04562,
+    "end_time": 464.04562,
+    "timestamp": "00:07:41"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "Now, I can continue writing.",
+    "start_time": 464.04562,
+    "end_time": 466.04562,
+    "timestamp": "00:07:44"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "I have written the primary goal of Neso Academy",
+    "start_time": 466.04562,
+    "end_time": 468.04562,
+    "timestamp": "00:07:46"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "is to give quality education to…",
+    "start_time": 468.04562,
+    "end_time": 470.04562,
+    "timestamp": "00:07:48"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "Actually, I want to write everyone,",
+    "start_time": 470.04562,
+    "end_time": 472.04562,
+    "timestamp": "00:07:50"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "but accidentally I have written every instead of every.",
+    "start_time": 472.04562,
+    "end_time": 475.04562,
+    "timestamp": "00:07:52"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "I press control Z, this element gets selected and you know it will get popped out of the stack",
+    "start_time": 475.04562,
+    "end_time": 480.64563,
+    "timestamp": "00:07:55"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "and will get placed within this redo stack.",
+    "start_time": 480.64563,
+    "end_time": 482.94562,
+    "timestamp": "00:08:00"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "And you can see here the operation is undone, right?",
+    "start_time": 482.94562,
+    "end_time": 485.94562,
+    "timestamp": "00:08:02"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "Now, let's say I want to redo the operation.",
+    "start_time": 485.94562,
+    "end_time": 489.04562,
+    "timestamp": "00:08:05"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "When I click on control Y, then this particular element gets selected",
+    "start_time": 489.04562,
+    "end_time": 494.2456,
+    "timestamp": "00:08:09"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "and it will get popped out of the stack and will get pushed within this undo stack once again.",
+    "start_time": 494.2456,
+    "end_time": 499.04562,
+    "timestamp": "00:08:14"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "So, here the operation is redone.",
+    "start_time": 499.04562,
+    "end_time": 501.44562,
+    "timestamp": "00:08:19"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "This is how undo redo feature works And this is one such application of data structure And you can see here stack is our data structure Now let see another example",
+    "start_time": 501.44562,
+    "end_time": 513.60846,
+    "timestamp": "00:08:21"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "Which data structure is used to store",
+    "start_time": 516.48846,
+    "end_time": 518.48846,
+    "timestamp": "00:08:36"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "an image as a bitmap?",
+    "start_time": 518.48846,
+    "end_time": 520.48846,
+    "timestamp": "00:08:38"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "Do you know which data structure is used to",
+    "start_time": 520.48846,
+    "end_time": 522.48846,
+    "timestamp": "00:08:40"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "store an image as a bitmap?",
+    "start_time": 522.48846,
+    "end_time": 525.6884,
+    "timestamp": "00:08:42"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "There are two types of images, bitmap images",
+    "start_time": 525.6884,
+    "end_time": 527.6884,
+    "timestamp": "00:08:45"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "and vector images.",
+    "start_time": 527.6884,
+    "end_time": 528.96844,
+    "timestamp": "00:08:47"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "Now, when I talk about a bitmap image,",
+    "start_time": 528.96844,
+    "end_time": 530.96844,
+    "timestamp": "00:08:48"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "Do you know which data structure is used to store that image?",
+    "start_time": 530.96844,
+    "end_time": 533.96844,
+    "timestamp": "00:08:50"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "Guess what?",
+    "start_time": 533.96844,
+    "end_time": 534.96844,
+    "timestamp": "00:08:53"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "It is an array.",
+    "start_time": 534.96844,
+    "end_time": 536.96844,
+    "timestamp": "00:08:54"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "Array is so useful that it is used in storing an image as well.",
+    "start_time": 536.96844,
+    "end_time": 540.96844,
+    "timestamp": "00:08:56"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "Let's see how.",
+    "start_time": 540.96844,
+    "end_time": 541.96844,
+    "timestamp": "00:09:00"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "Bitmap images are stored as a series of tiny dots called pixels. Right?",
+    "start_time": 543.96844,
+    "end_time": 548.96844,
+    "timestamp": "00:09:03"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "So, here you can see in this image that these tiny dots or squares are called pixels.",
+    "start_time": 548.96844,
+    "end_time": 554.96844,
+    "timestamp": "00:09:08"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "Here, each pixel is actually a small square that is assigned a colour",
+    "start_time": 554.96844,
+    "end_time": 558.96844,
+    "timestamp": "00:09:14"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "and then arranged in a pattern to form an image like the following.",
+    "start_time": 558.96844,
+    "end_time": 562.72845,
+    "timestamp": "00:09:18"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "So, you can think of a two dimensional array like this.",
+    "start_time": 562.72845,
+    "end_time": 565.72845,
+    "timestamp": "00:09:22"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "Here in this example, it is 37 cross 40.",
+    "start_time": 565.72845,
+    "end_time": 568.72845,
+    "timestamp": "00:09:25"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "Now, within that two dimensional array, you are storing pixel information.",
+    "start_time": 568.72845,
+    "end_time": 572.3284,
+    "timestamp": "00:09:28"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "That is, each pixel color you are storing.",
+    "start_time": 572.3284,
+    "end_time": 574.96844,
+    "timestamp": "00:09:32"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "And then after that, you are arranging it in a systematic way.",
+    "start_time": 574.96844,
+    "end_time": 577.84845,
+    "timestamp": "00:09:34"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "And finally, we get this as a result.",
+    "start_time": 577.84845,
+    "end_time": 579.84845,
+    "timestamp": "00:09:37"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "That is an image of a Pikachu. Right?",
+    "start_time": 579.84845,
+    "end_time": 582.3284,
+    "timestamp": "00:09:39"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "So, a two dimensional array of size 37 cross 40 is enough to store this image.",
+    "start_time": 582.3284,
+    "end_time": 586.3284,
+    "timestamp": "00:09:42"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "Isn't that so?",
+    "start_time": 586.3284,
+    "end_time": 587.28845,
+    "timestamp": "00:09:46"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "Now let's see our example number three.",
+    "start_time": 587.28845,
+    "end_time": 589.6885,
+    "timestamp": "00:09:47"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "Storing the friendship information on a social networking site.",
+    "start_time": 591.46844,
+    "end_time": 595.5084,
+    "timestamp": "00:09:51"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "Do you know how Facebook is storing the information of friends?",
+    "start_time": 595.5084,
+    "end_time": 599.04846,
+    "timestamp": "00:09:55"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "Let's see an example here.",
+    "start_time": 599.04846,
+    "end_time": 601.04846,
+    "timestamp": "00:09:59"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "Let's say James is a friend of Mark.",
+    "start_time": 601.04846,
+    "end_time": 603.76843,
+    "timestamp": "00:10:01"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "Not only that, James is a friend with Leah as well.",
+    "start_time": 604.40845,
+    "end_time": 607.76843,
+    "timestamp": "00:10:04"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "So, here we are maintaining the connections between them.",
+    "start_time": 607.76843,
+    "end_time": 611.28845,
+    "timestamp": "00:10:07"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "This particular edge is representing the relationship between James and Mark.",
+    "start_time": 611.28845,
+    "end_time": 616.0084,
+    "timestamp": "00:10:11"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "Okay? Similarly, James is friend with Leah and it is represented by this edge.",
+    "start_time": 616.0084,
+    "end_time": 621.84845,
+    "timestamp": "00:10:16"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "Not only that, Lucy is friend with both Mark as well as Leah.",
+    "start_time": 621.84845,
+    "end_time": 627.04846,
+    "timestamp": "00:10:21"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "So, here I am maintaining the connections like this.",
+    "start_time": 627.04846,
+    "end_time": 629.60846,
+    "timestamp": "00:10:27"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "But it should be noted that James and Lucy are not friends.",
+    "start_time": 629.60846,
+    "end_time": 633.76843,
+    "timestamp": "00:10:29"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "That's why there is no edge between them.",
+    "start_time": 633.76843,
+    "end_time": 636.48846,
+    "timestamp": "00:10:33"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "You can guess that which data structure is used to store this information.",
+    "start_time": 636.48846,
+    "end_time": 641.1284,
+    "timestamp": "00:10:36"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "It is graph.",
+    "start_time": 641.1284,
+    "end_time": 643.04846,
+    "timestamp": "00:10:41"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "Graph data structure we can use to store information like this.",
+    "start_time": 643.04846,
+    "end_time": 646.64844,
+    "timestamp": "00:10:43"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "And now you can understand why data structures are so important.",
+    "start_time": 646.64844,
+    "end_time": 651.36847,
+    "timestamp": "00:10:46"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "They are useful in day to day life and we are using them more frequently.",
+    "start_time": 651.36847,
+    "end_time": 655.84845,
+    "timestamp": "00:10:51"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "And that is why it is so hot subject in IT industry.",
+    "start_time": 655.84845,
+    "end_time": 660.16846,
+    "timestamp": "00:10:55"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "Okay friends, this is it for now.",
+    "start_time": 661.3684,
+    "end_time": 663.3684,
+    "timestamp": "00:11:01"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "Thank you for watching this presentation.",
+    "start_time": 663.3684,
+    "end_time": 665.3684,
+    "timestamp": "00:11:03"
+  },
+  {
+    "video_name": "1 Introduction to Data Structures",
+    "text": "you",
+    "start_time": 673.04846,
+    "end_time": 675.10846,
+    "timestamp": "00:11:13"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "In our journey towards learning data structures,",
+    "start_time": 0.0,
+    "end_time": 2.34,
+    "timestamp": "00:00:00"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "we first have to understand the difference between",
+    "start_time": 2.34,
+    "end_time": 4.58,
+    "timestamp": "00:00:02"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "data types and abstract data types.",
+    "start_time": 4.58,
+    "end_time": 6.58,
+    "timestamp": "00:00:04"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "So, let's get started.",
+    "start_time": 6.58,
+    "end_time": 8.58,
+    "timestamp": "00:00:06"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "What is a data type?",
+    "start_time": 8.58,
+    "end_time": 10.08,
+    "timestamp": "00:00:08"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "We have already discussed what a data type is",
+    "start_time": 10.08,
+    "end_time": 12.08,
+    "timestamp": "00:00:10"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "in our C programming lectures.",
+    "start_time": 12.08,
+    "end_time": 13.84,
+    "timestamp": "00:00:12"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "But let's discuss it one more time because",
+    "start_time": 13.84,
+    "end_time": 15.839999,
+    "timestamp": "00:00:13"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "there are certain points which I haven't discussed there.",
+    "start_time": 15.839999,
+    "end_time": 18.72,
+    "timestamp": "00:00:15"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "There are two important things that I haven't told you about data types.",
+    "start_time": 18.72,
+    "end_time": 22.26,
+    "timestamp": "00:00:18"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "Although, there is one point which is already clear.",
+    "start_time": 22.26,
+    "end_time": 24.4,
+    "timestamp": "00:00:22"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "But there is one more important point which I haven't told about data types.",
+    "start_time": 24.4,
+    "end_time": 28.16,
+    "timestamp": "00:00:24"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "First is, it defines a certain domain of values.",
+    "start_time": 28.16,
+    "end_time": 31.92,
+    "timestamp": "00:00:28"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "We already know that a data type defines a certain domain of values.",
+    "start_time": 31.92,
+    "end_time": 35.6,
+    "timestamp": "00:00:31"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "Right? But there is one more important point which says that",
+    "start_time": 35.6,
+    "end_time": 38.8,
+    "timestamp": "00:00:35"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "it defines operations allowed on those values.",
+    "start_time": 38.8,
+    "end_time": 42.079998,
+    "timestamp": "00:00:38"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "So, not only it is defining certain domain of values,",
+    "start_time": 42.079998,
+    "end_time": 44.88,
+    "timestamp": "00:00:42"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "but it also defines what operations are allowed on those values.",
+    "start_time": 44.88,
+    "end_time": 48.559998,
+    "timestamp": "00:00:44"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "For example, we can think of integer type.",
+    "start_time": 48.559998,
+    "end_time": 51.52,
+    "timestamp": "00:00:48"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "Here, we can take only integer values.",
+    "start_time": 51.52,
+    "end_time": 54.0,
+    "timestamp": "00:00:51"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "We already know that integer allows only integer values.",
+    "start_time": 54.0,
+    "end_time": 56.719997,
+    "timestamp": "00:00:54"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "Right?",
+    "start_time": 56.719997,
+    "end_time": 57.28,
+    "timestamp": "00:00:56"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "But the operations allowed are addition, subtraction, multiplication, bitwise operations, etc.",
+    "start_time": 57.28,
+    "end_time": 62.559998,
+    "timestamp": "00:00:57"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "We can perform almost every operation with integer type.",
+    "start_time": 62.559998,
+    "end_time": 65.56,
+    "timestamp": "00:01:02"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "For the sake of understanding, let's take another type.",
+    "start_time": 65.56,
+    "end_time": 68.68,
+    "timestamp": "00:01:05"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "That is float type.",
+    "start_time": 68.68,
+    "end_time": 69.88,
+    "timestamp": "00:01:08"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "It takes only floating point values.",
+    "start_time": 69.88,
+    "end_time": 71.88,
+    "timestamp": "00:01:09"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "We already know that the domain of values allowed in the case of float type",
+    "start_time": 71.88,
+    "end_time": 75.76,
+    "timestamp": "00:01:11"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "are only floating point values.",
+    "start_time": 75.76,
+    "end_time": 77.52,
+    "timestamp": "00:01:15"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "But the operations which we can perform on float types are addition, subtraction, multiplication, division.",
+    "start_time": 77.52,
+    "end_time": 82.72,
+    "timestamp": "00:01:17"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "But we cannot perform bitwise and mod operations on them.",
+    "start_time": 82.72,
+    "end_time": 85.759995,
+    "timestamp": "00:01:22"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "This should be well noted.",
+    "start_time": 85.759995,
+    "end_time": 87.439995,
+    "timestamp": "00:01:25"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "So, it is clearly understandable that",
+    "start_time": 87.439995,
+    "end_time": 89.84,
+    "timestamp": "00:01:27"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "a data type not only defines a certain domain of values,",
+    "start_time": 89.84,
+    "end_time": 92.799995,
+    "timestamp": "00:01:29"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "but it also defines operations allowed on those values.",
+    "start_time": 92.799995,
+    "end_time": 95.759995,
+    "timestamp": "00:01:32"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "Right? Now, let's discuss what is a user defined data type.",
+    "start_time": 95.759995,
+    "end_time": 100.95999,
+    "timestamp": "00:01:35"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "Before moving on to abstract data types, we should understand what is a user defined data type.",
+    "start_time": 100.95999,
+    "end_time": 105.759995,
+    "timestamp": "00:01:40"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "In contrast to primitive data types, there is a concept of user defined data types.",
+    "start_time": 105.759995,
+    "end_time": 110.63999,
+    "timestamp": "00:01:45"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "We already know primitive data types like integer character float Right But there is a concept of user defined data type which we should also know The operations and values of user defined data types are not specified in the language itself",
+    "start_time": 110.63999,
+    "end_time": 122.603264,
+    "timestamp": "00:01:50"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "but is specified by the user.",
+    "start_time": 122.603264,
+    "end_time": 125.603264,
+    "timestamp": "00:02:02"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "Here, the user is defining the operations",
+    "start_time": 125.603264,
+    "end_time": 127.603264,
+    "timestamp": "00:02:05"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "as well as the values.",
+    "start_time": 127.603264,
+    "end_time": 129.60327,
+    "timestamp": "00:02:07"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "It is not predefined in the language itself.",
+    "start_time": 129.60327,
+    "end_time": 131.60327,
+    "timestamp": "00:02:09"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "Okay? Now, here are the examples.",
+    "start_time": 131.60327,
+    "end_time": 133.60327,
+    "timestamp": "00:02:11"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "Structure, union and enumeration",
+    "start_time": 133.60327,
+    "end_time": 135.60327,
+    "timestamp": "00:02:13"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "which we have already discussed.",
+    "start_time": 135.60327,
+    "end_time": 137.60327,
+    "timestamp": "00:02:15"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "By using structures, we are defining our own type",
+    "start_time": 137.60327,
+    "end_time": 139.60327,
+    "timestamp": "00:02:17"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "by combining other data types.",
+    "start_time": 139.60327,
+    "end_time": 141.60327,
+    "timestamp": "00:02:19"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "By using structures, we are defining our own type by combining other primitive types.",
+    "start_time": 141.60327,
+    "end_time": 147.60327,
+    "timestamp": "00:02:21"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "For example, here in this case, we have combined these two integers to form a new type, that is point.",
+    "start_time": 147.60327,
+    "end_time": 152.60327,
+    "timestamp": "00:02:27"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "So, it's a user defined data type.",
+    "start_time": 152.60327,
+    "end_time": 155.60327,
+    "timestamp": "00:02:32"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "This is our understanding about user defined data types.",
+    "start_time": 155.60327,
+    "end_time": 158.60327,
+    "timestamp": "00:02:35"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "Now, let's try to understand what are abstract data types.",
+    "start_time": 158.60327,
+    "end_time": 162.60327,
+    "timestamp": "00:02:38"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "ADTs or abstract data types are like user defined data types",
+    "start_time": 162.60327,
+    "end_time": 166.60327,
+    "timestamp": "00:02:42"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "which defines operations on values using functions",
+    "start_time": 166.60327,
+    "end_time": 171.60327,
+    "timestamp": "00:02:46"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "without specifying what is there inside the function",
+    "start_time": 171.60327,
+    "end_time": 175.10327,
+    "timestamp": "00:02:51"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "and how the operations are performed.",
+    "start_time": 175.10327,
+    "end_time": 177.60327,
+    "timestamp": "00:02:55"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "First of all, we are defining operations, that is true.",
+    "start_time": 177.60327,
+    "end_time": 181.60327,
+    "timestamp": "00:02:57"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "But we are defining operations on values, that is also true.",
+    "start_time": 181.60327,
+    "end_time": 184.60327,
+    "timestamp": "00:03:01"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "Using functions, it should be well noted that",
+    "start_time": 184.60327,
+    "end_time": 188.10327,
+    "timestamp": "00:03:04"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "we are defining operations using functions",
+    "start_time": 188.10327,
+    "end_time": 190.60327,
+    "timestamp": "00:03:08"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "without specifying what is there inside the function.",
+    "start_time": 190.60327,
+    "end_time": 194.10327,
+    "timestamp": "00:03:10"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "We are not specifying anything inside,",
+    "start_time": 194.10327,
+    "end_time": 196.10327,
+    "timestamp": "00:03:14"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "what is there inside the function, okay?",
+    "start_time": 196.10327,
+    "end_time": 198.10327,
+    "timestamp": "00:03:16"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "And how the operations are performed.",
+    "start_time": 198.10327,
+    "end_time": 200.10327,
+    "timestamp": "00:03:18"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "Let's take an example of a stack ADT.",
+    "start_time": 200.10327,
+    "end_time": 202.10327,
+    "timestamp": "00:03:20"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "A stack consists of elements of same type,",
+    "start_time": 202.10327,
+    "end_time": 205.10327,
+    "timestamp": "00:03:22"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "arranged in a sequential order.",
+    "start_time": 205.10327,
+    "end_time": 207.10327,
+    "timestamp": "00:03:25"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "So, what type of elements are allowed in a stack?",
+    "start_time": 207.10327,
+    "end_time": 210.10327,
+    "timestamp": "00:03:27"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "The elements of same type.",
+    "start_time": 210.10327,
+    "end_time": 212.10327,
+    "timestamp": "00:03:30"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "And that too, they are arranged in a sequential order.",
+    "start_time": 212.10327,
+    "end_time": 214.10327,
+    "timestamp": "00:03:32"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "We already know that, right?",
+    "start_time": 214.10327,
+    "end_time": 216.10327,
+    "timestamp": "00:03:34"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "Now, the operations allowed on them could be",
+    "start_time": 216.10327,
+    "end_time": 218.10327,
+    "timestamp": "00:03:36"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "initialize, we can define an initialize function,",
+    "start_time": 218.10327,
+    "end_time": 220.10327,
+    "timestamp": "00:03:38"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "which initializes the stack to be empty actually.",
+    "start_time": 220.10327,
+    "end_time": 223.10327,
+    "timestamp": "00:03:40"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "actually. We can perform a push operation,",
+    "start_time": 223.10327,
+    "end_time": 225.10327,
+    "timestamp": "00:03:43"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "that is insert an element into the stack.",
+    "start_time": 225.10327,
+    "end_time": 228.10327,
+    "timestamp": "00:03:45"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "We can perform pop operation that is delete an element from the stack We can check is stack empty or we can check is stack full So these are the operations which we can define and we can perform on stack These are functions as you can see",
+    "start_time": 228.10327,
+    "end_time": 240.20653,
+    "timestamp": "00:03:48"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "Here we are specifying functions but we are",
+    "start_time": 240.20653,
+    "end_time": 242.20653,
+    "timestamp": "00:04:00"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "not saying anything how they can be implemented.",
+    "start_time": 242.20653,
+    "end_time": 245.88652,
+    "timestamp": "00:04:02"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "We are just specifying them.",
+    "start_time": 245.88652,
+    "end_time": 247.88654,
+    "timestamp": "00:04:05"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "That is called abstract data type.",
+    "start_time": 247.88654,
+    "end_time": 250.20653,
+    "timestamp": "00:04:07"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "We know that what type of elements are allowed",
+    "start_time": 250.20653,
+    "end_time": 253.48653,
+    "timestamp": "00:04:10"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "and we also know that what operations we can perform",
+    "start_time": 253.48653,
+    "end_time": 256.20654,
+    "timestamp": "00:04:13"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "but we don't know what is there inside.",
+    "start_time": 256.20654,
+    "end_time": 258.20654,
+    "timestamp": "00:04:16"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "Okay.",
+    "start_time": 258.20654,
+    "end_time": 259.20654,
+    "timestamp": "00:04:18"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "Think of ADT as a black box which hides the inner structure",
+    "start_time": 259.20654,
+    "end_time": 263.70654,
+    "timestamp": "00:04:19"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "and design of the data type from the user.",
+    "start_time": 263.70654,
+    "end_time": 266.00653,
+    "timestamp": "00:04:23"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "We can think of it like it hides all the implementation details from us.",
+    "start_time": 266.00653,
+    "end_time": 270.00653,
+    "timestamp": "00:04:26"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "This is very important which we will understand later.",
+    "start_time": 270.00653,
+    "end_time": 272.70654,
+    "timestamp": "00:04:30"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "There are multiple ways to implement an ADT.",
+    "start_time": 272.70654,
+    "end_time": 276.00653,
+    "timestamp": "00:04:32"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "Let me tell you, this is very important.",
+    "start_time": 276.00653,
+    "end_time": 278.00653,
+    "timestamp": "00:04:36"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "There are multiple ways to implement an ADT.",
+    "start_time": 278.00653,
+    "end_time": 280.90652,
+    "timestamp": "00:04:38"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "For example, a stack ADT can be implemented using arrays or linked lists.",
+    "start_time": 280.90652,
+    "end_time": 285.90652,
+    "timestamp": "00:04:40"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "It should be well noted that stack itself is a data structure.",
+    "start_time": 285.90652,
+    "end_time": 288.90652,
+    "timestamp": "00:04:45"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "We can implement this data structure using",
+    "start_time": 288.90652,
+    "end_time": 291.1465,
+    "timestamp": "00:04:48"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "other data structures like arrays or link lists.",
+    "start_time": 291.1465,
+    "end_time": 294.10654,
+    "timestamp": "00:04:51"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "Okay, so a stack ADT,",
+    "start_time": 294.10654,
+    "end_time": 296.1065,
+    "timestamp": "00:04:54"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "which we know is right now a skeleton,",
+    "start_time": 296.1065,
+    "end_time": 298.1065,
+    "timestamp": "00:04:56"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "can be implemented using arrays or link lists.",
+    "start_time": 298.1065,
+    "end_time": 301.1065,
+    "timestamp": "00:04:58"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "Now, the question that immediately arises",
+    "start_time": 301.1065,
+    "end_time": 303.50653,
+    "timestamp": "00:05:01"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "that why do we even need ADTs?",
+    "start_time": 303.50653,
+    "end_time": 305.90652,
+    "timestamp": "00:05:03"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "Why do we need skeletons?",
+    "start_time": 305.90652,
+    "end_time": 307.70654,
+    "timestamp": "00:05:05"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "Why can't we simply implement things,",
+    "start_time": 307.70654,
+    "end_time": 309.70654,
+    "timestamp": "00:05:07"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "you know, displayed to the user?",
+    "start_time": 309.70654,
+    "end_time": 311.30652,
+    "timestamp": "00:05:09"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "Why ADT?",
+    "start_time": 311.30652,
+    "end_time": 312.70654,
+    "timestamp": "00:05:11"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "Before moving further, we should understand some terminology.",
+    "start_time": 312.70654,
+    "end_time": 315.70654,
+    "timestamp": "00:05:12"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "The program which uses data structure",
+    "start_time": 315.70654,
+    "end_time": 317.70654,
+    "timestamp": "00:05:15"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "is called a client program.",
+    "start_time": 317.70654,
+    "end_time": 319.70654,
+    "timestamp": "00:05:17"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "You should note this very clearly,",
+    "start_time": 319.70654,
+    "end_time": 321.30652,
+    "timestamp": "00:05:19"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "that the program which uses data structure",
+    "start_time": 321.30652,
+    "end_time": 323.70654,
+    "timestamp": "00:05:21"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "is called a client program.",
+    "start_time": 323.70654,
+    "end_time": 325.30652,
+    "timestamp": "00:05:23"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "It has access to the ADT, that is the interface,",
+    "start_time": 325.30652,
+    "end_time": 328.10654,
+    "timestamp": "00:05:25"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "nothing else, just abstract.",
+    "start_time": 328.10654,
+    "end_time": 330.10654,
+    "timestamp": "00:05:28"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "And the program which implements the data structure",
+    "start_time": 330.10654,
+    "end_time": 332.10654,
+    "timestamp": "00:05:30"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "is called implementation.",
+    "start_time": 332.10654,
+    "end_time": 334.10654,
+    "timestamp": "00:05:32"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "So, we have two programs.",
+    "start_time": 334.10654,
+    "end_time": 335.30652,
+    "timestamp": "00:05:34"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "One is client program, the other one is implementation.",
+    "start_time": 335.30652,
+    "end_time": 337.70654,
+    "timestamp": "00:05:35"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "Implementation is the one which implements",
+    "start_time": 337.70654,
+    "end_time": 339.70654,
+    "timestamp": "00:05:37"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "the data structure and the client program",
+    "start_time": 339.70654,
+    "end_time": 341.70654,
+    "timestamp": "00:05:39"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "is the one which just uses the interface,",
+    "start_time": 341.70654,
+    "end_time": 343.70654,
+    "timestamp": "00:05:41"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "that is the outside details, nothing inside.",
+    "start_time": 343.70654,
+    "end_time": 345.70654,
+    "timestamp": "00:05:43"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "Okay Now let discuss the advantage Let say if someone wants to use the stack in the program then he can simply use push and pop operations without knowing its implementation A user doesn't have to worry about how the operations are performed",
+    "start_time": 345.70654,
+    "end_time": 360.80978,
+    "timestamp": "00:05:45"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "Okay? If someone wants to use the stack program, we know that.",
+    "start_time": 360.80978,
+    "end_time": 364.0098,
+    "timestamp": "00:06:00"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "Program which uses the data structure is called the client program.",
+    "start_time": 364.0098,
+    "end_time": 366.80978,
+    "timestamp": "00:06:04"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "It has access to the interface only and nothing inside.",
+    "start_time": 366.80978,
+    "end_time": 370.5098,
+    "timestamp": "00:06:06"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "So, he can simply use push and pop operations",
+    "start_time": 370.5098,
+    "end_time": 373.0098,
+    "timestamp": "00:06:10"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "without knowing its implementation.",
+    "start_time": 373.0098,
+    "end_time": 375.0098,
+    "timestamp": "00:06:13"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "Apart from this, if in future, the implementation of stack is changed from array to linked list.",
+    "start_time": 375.0098,
+    "end_time": 380.8498,
+    "timestamp": "00:06:15"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "Let's say, previously the stack was implemented using arrays. Right?",
+    "start_time": 380.8498,
+    "end_time": 385.00977,
+    "timestamp": "00:06:20"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "But now, let's say it is changed to linked list.",
+    "start_time": 385.00977,
+    "end_time": 387.5698,
+    "timestamp": "00:06:25"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "Then the client program will work in the same way without being affected.",
+    "start_time": 387.5698,
+    "end_time": 390.92978,
+    "timestamp": "00:06:27"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "There is nothing to discuss with client program.",
+    "start_time": 390.92978,
+    "end_time": 393.48978,
+    "timestamp": "00:06:30"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "Client program has nothing to do with it.",
+    "start_time": 393.48978,
+    "end_time": 395.48978,
+    "timestamp": "00:06:33"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "It can simply use the interface without knowing what is going inside.",
+    "start_time": 395.48978,
+    "end_time": 399.4098,
+    "timestamp": "00:06:35"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "So, if the implementation is changed from array to linked list,",
+    "start_time": 399.4098,
+    "end_time": 402.5298,
+    "timestamp": "00:06:39"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "nothing will be affected in the client program.",
+    "start_time": 402.5298,
+    "end_time": 405.08978,
+    "timestamp": "00:06:42"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "This is one of the biggest advantages of using abstract data types.",
+    "start_time": 405.08978,
+    "end_time": 408.5298,
+    "timestamp": "00:06:45"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "Now, it should be clear that why we are using it.",
+    "start_time": 408.5298,
+    "end_time": 410.92978,
+    "timestamp": "00:06:48"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "Because with the help of abstract data types, we are actually separating the two worlds.",
+    "start_time": 410.92978,
+    "end_time": 414.76978,
+    "timestamp": "00:06:50"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "We are just providing the user an interface.",
+    "start_time": 414.76978,
+    "end_time": 417.56976,
+    "timestamp": "00:06:54"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "The rest of the details, the implementation part is done in the backend.",
+    "start_time": 417.56976,
+    "end_time": 421.4098,
+    "timestamp": "00:06:57"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "User doesn't have to worry about it.",
+    "start_time": 421.4098,
+    "end_time": 423.48978,
+    "timestamp": "00:07:01"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "The implementation can go on without affecting the client program.",
+    "start_time": 423.48978,
+    "end_time": 427.32977,
+    "timestamp": "00:07:03"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "That is why the need of abstract data type came.",
+    "start_time": 427.32977,
+    "end_time": 429.88977,
+    "timestamp": "00:07:07"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "Now, here is the conclusion of this lecture.",
+    "start_time": 429.88977,
+    "end_time": 432.88977,
+    "timestamp": "00:07:09"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "Abstract data type provides abstraction.",
+    "start_time": 432.88977,
+    "end_time": 435.88977,
+    "timestamp": "00:07:12"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "We should understand this that abstract data type provides abstraction,",
+    "start_time": 435.88977,
+    "end_time": 438.88977,
+    "timestamp": "00:07:15"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "which means hiding details from the user.",
+    "start_time": 438.88977,
+    "end_time": 441.88977,
+    "timestamp": "00:07:18"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "And it is very important because user doesn't bother about",
+    "start_time": 441.88977,
+    "end_time": 443.88977,
+    "timestamp": "00:07:21"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "how that particular thing is implemented.",
+    "start_time": 443.88977,
+    "end_time": 446.88977,
+    "timestamp": "00:07:23"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "He just have to use that thing. That's it.",
+    "start_time": 446.88977,
+    "end_time": 448.88977,
+    "timestamp": "00:07:26"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "So, this separation is required.",
+    "start_time": 448.88977,
+    "end_time": 450.88977,
+    "timestamp": "00:07:28"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "Abstract data type is that's why very useful concept.",
+    "start_time": 450.88977,
+    "end_time": 453.88977,
+    "timestamp": "00:07:30"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "Okay friends, this is it for now.",
+    "start_time": 454.88977,
+    "end_time": 456.88977,
+    "timestamp": "00:07:34"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "Thank you for watching this presentation.",
+    "start_time": 456.88977,
+    "end_time": 458.88977,
+    "timestamp": "00:07:36"
+  },
+  {
+    "video_name": "2 Data Types vs. Abstract Data Types",
+    "text": "Thank you.",
+    "start_time": 459.88977,
+    "end_time": 470.26978,
+    "timestamp": "00:07:39"
+  },
+  {
+    "video_name": "3 Data Structure Definition & Advantages",
+    "text": "In this presentation, we will discuss the formal definition of data structure",
+    "start_time": 0.0,
+    "end_time": 4.64,
+    "timestamp": "00:00:00"
+  },
+  {
+    "video_name": "3 Data Structure Definition & Advantages",
+    "text": "and we will also discuss some of the advantages of it.",
+    "start_time": 4.64,
+    "end_time": 7.68,
+    "timestamp": "00:00:04"
+  },
+  {
+    "video_name": "3 Data Structure Definition & Advantages",
+    "text": "So, let's get started.",
+    "start_time": 7.68,
+    "end_time": 9.179999,
+    "timestamp": "00:00:07"
+  },
+  {
+    "video_name": "3 Data Structure Definition & Advantages",
+    "text": "What is a data structure?",
+    "start_time": 9.98,
+    "end_time": 12.04,
+    "timestamp": "00:00:09"
+  },
+  {
+    "video_name": "3 Data Structure Definition & Advantages",
+    "text": "From the previous lecture, we get this information that a stack ADT can be implemented",
+    "start_time": 12.04,
+    "end_time": 17.32,
+    "timestamp": "00:00:12"
+  },
+  {
+    "video_name": "3 Data Structure Definition & Advantages",
+    "text": "using arrays or linked lists. Right?",
+    "start_time": 17.32,
+    "end_time": 21.08,
+    "timestamp": "00:00:17"
+  },
+  {
+    "video_name": "3 Data Structure Definition & Advantages",
+    "text": "We can use these two data structures to implement a stack ADT.",
+    "start_time": 21.08,
+    "end_time": 24.66,
+    "timestamp": "00:00:21"
+  },
+  {
+    "video_name": "3 Data Structure Definition & Advantages",
+    "text": "These are my data structures. Right?",
+    "start_time": 24.66,
+    "end_time": 26.96,
+    "timestamp": "00:00:24"
+  },
+  {
+    "video_name": "3 Data Structure Definition & Advantages",
+    "text": "Now, what information we get from this line?",
+    "start_time": 26.96,
+    "end_time": 29.46,
+    "timestamp": "00:00:26"
+  },
+  {
+    "video_name": "3 Data Structure Definition & Advantages",
+    "text": "First of all, a data structure is the organization of the data in a way so that it can be used efficiently.",
+    "start_time": 29.46,
+    "end_time": 34.739998,
+    "timestamp": "00:00:29"
+  },
+  {
+    "video_name": "3 Data Structure Definition & Advantages",
+    "text": "When I say efficiently, it means in terms of time as well as space.",
+    "start_time": 34.739998,
+    "end_time": 39.059998,
+    "timestamp": "00:00:34"
+  },
+  {
+    "video_name": "3 Data Structure Definition & Advantages",
+    "text": "From the previous lecture, we got this information that a stack ADT is implemented using arrays or linked lists.",
+    "start_time": 39.059998,
+    "end_time": 45.699997,
+    "timestamp": "00:00:39"
+  },
+  {
+    "video_name": "3 Data Structure Definition & Advantages",
+    "text": "From that particular text, we get this information that a data structure is used to implement an ADT.",
+    "start_time": 45.699997,
+    "end_time": 52.5,
+    "timestamp": "00:00:45"
+  },
+  {
+    "video_name": "3 Data Structure Definition & Advantages",
+    "text": "Isn't that so? We can say that a data structure is used to implement an ADT.",
+    "start_time": 52.5,
+    "end_time": 58.26,
+    "timestamp": "00:00:52"
+  },
+  {
+    "video_name": "3 Data Structure Definition & Advantages",
+    "text": "We know from this example that, in order to implement stack ADT, we can use an array data structure or linked list data structure.",
+    "start_time": 58.26,
+    "end_time": 64.96,
+    "timestamp": "00:00:58"
+  },
+  {
+    "video_name": "3 Data Structure Definition & Advantages",
+    "text": "Any of these data structures we can use to implement this ADT.",
+    "start_time": 64.96,
+    "end_time": 68.64,
+    "timestamp": "00:01:04"
+  },
+  {
+    "video_name": "3 Data Structure Definition & Advantages",
+    "text": "So, basically we can say that, a data structure is used to implement an ADT.",
+    "start_time": 68.64,
+    "end_time": 73.579994,
+    "timestamp": "00:01:08"
+  },
+  {
+    "video_name": "3 Data Structure Definition & Advantages",
+    "text": "ADT tells us what is to be done.",
+    "start_time": 73.579994,
+    "end_time": 76.38,
+    "timestamp": "00:01:13"
+  },
+  {
+    "video_name": "3 Data Structure Definition & Advantages",
+    "text": "And data structures tells us how to do it.",
+    "start_time": 76.38,
+    "end_time": 79.22,
+    "timestamp": "00:01:16"
+  },
+  {
+    "video_name": "3 Data Structure Definition & Advantages",
+    "text": "So, data structures cares about how, not what.",
+    "start_time": 79.22,
+    "end_time": 82.619995,
+    "timestamp": "00:01:19"
+  },
+  {
+    "video_name": "3 Data Structure Definition & Advantages",
+    "text": "ADT just gives us the blueprint, while data structures gives us the implementation.",
+    "start_time": 82.619995,
+    "end_time": 87.399994,
+    "timestamp": "00:01:22"
+  },
+  {
+    "video_name": "3 Data Structure Definition & Advantages",
+    "text": "But, how to know which data structure to use for a particular ADT?",
+    "start_time": 88.259995,
+    "end_time": 92.59999,
+    "timestamp": "00:01:28"
+  },
+  {
+    "video_name": "3 Data Structure Definition & Advantages",
+    "text": "That is the basic question.",
+    "start_time": 92.59999,
+    "end_time": 94.24,
+    "timestamp": "00:01:32"
+  },
+  {
+    "video_name": "3 Data Structure Definition & Advantages",
+    "text": "Obviously, this question immediately arises after knowing this point that there are multiple",
+    "start_time": 94.24,
+    "end_time": 98.67999,
+    "timestamp": "00:01:34"
+  },
+  {
+    "video_name": "3 Data Structure Definition & Advantages",
+    "text": "data structures for a particular ADT.",
+    "start_time": 98.67999,
+    "end_time": 100.77999,
+    "timestamp": "00:01:38"
+  },
+  {
+    "video_name": "3 Data Structure Definition & Advantages",
+    "text": "But, which data structure to use for a particular ADT is the question of concern.",
+    "start_time": 100.77999,
+    "end_time": 105.53999,
+    "timestamp": "00:01:40"
+  },
+  {
+    "video_name": "3 Data Structure Definition & Advantages",
+    "text": "Let's tackle this question.",
+    "start_time": 105.53999,
+    "end_time": 107.03999,
+    "timestamp": "00:01:45"
+  },
+  {
+    "video_name": "3 Data Structure Definition & Advantages",
+    "text": "Which data structure?",
+    "start_time": 107.71999,
+    "end_time": 109.439995,
+    "timestamp": "00:01:47"
+  },
+  {
+    "video_name": "3 Data Structure Definition & Advantages",
+    "text": "In reality different implementations of ADT are compared for time and space efficiency For example we know that stack ADT can be implemented using arrays or linked lists We can compare these two data structures for time and space efficiency",
+    "start_time": 109.439995,
+    "end_time": 126.160995,
+    "timestamp": "00:01:49"
+  },
+  {
+    "video_name": "3 Data Structure Definition & Advantages",
+    "text": "The one best suited according to the current requirement of the user will be selected.",
+    "start_time": 126.160995,
+    "end_time": 131.241,
+    "timestamp": "00:02:06"
+  },
+  {
+    "video_name": "3 Data Structure Definition & Advantages",
+    "text": "Maybe one data structure will lead to space efficiency while other data structure will lead to time efficiency.",
+    "start_time": 131.241,
+    "end_time": 136.961,
+    "timestamp": "00:02:11"
+  },
+  {
+    "video_name": "3 Data Structure Definition & Advantages",
+    "text": "We will select the one according to the current requirement of the user.",
+    "start_time": 136.961,
+    "end_time": 141.161,
+    "timestamp": "00:02:16"
+  },
+  {
+    "video_name": "3 Data Structure Definition & Advantages",
+    "text": "maybe user wants to save space,",
+    "start_time": 141.361,
+    "end_time": 143.361,
+    "timestamp": "00:02:21"
+  },
+  {
+    "video_name": "3 Data Structure Definition & Advantages",
+    "text": "then we can use a particular data structure which can save space.",
+    "start_time": 143.361,
+    "end_time": 146.361,
+    "timestamp": "00:02:23"
+  },
+  {
+    "video_name": "3 Data Structure Definition & Advantages",
+    "text": "Maybe a user wants to run the program faster,",
+    "start_time": 146.361,
+    "end_time": 149.361,
+    "timestamp": "00:02:26"
+  },
+  {
+    "video_name": "3 Data Structure Definition & Advantages",
+    "text": "then we will use the data structure which will run faster.",
+    "start_time": 149.361,
+    "end_time": 152.361,
+    "timestamp": "00:02:29"
+  },
+  {
+    "video_name": "3 Data Structure Definition & Advantages",
+    "text": "So, the one best suited according to the current requirement of the user will get selected.",
+    "start_time": 152.361,
+    "end_time": 157.361,
+    "timestamp": "00:02:32"
+  },
+  {
+    "video_name": "3 Data Structure Definition & Advantages",
+    "text": "Okay. So, it is depending upon the user.",
+    "start_time": 157.361,
+    "end_time": 159.861,
+    "timestamp": "00:02:37"
+  },
+  {
+    "video_name": "3 Data Structure Definition & Advantages",
+    "text": "Now, let's discuss some of the advantages of data structures.",
+    "start_time": 159.861,
+    "end_time": 164.361,
+    "timestamp": "00:02:39"
+  },
+  {
+    "video_name": "3 Data Structure Definition & Advantages",
+    "text": "First advantage is efficiency. We know that,",
+    "start_time": 164.361,
+    "end_time": 167.361,
+    "timestamp": "00:02:44"
+  },
+  {
+    "video_name": "3 Data Structure Definition & Advantages",
+    "text": "Proper choice of data structures make program efficient in terms of space and time.",
+    "start_time": 167.361,
+    "end_time": 172.581,
+    "timestamp": "00:02:47"
+  },
+  {
+    "video_name": "3 Data Structure Definition & Advantages",
+    "text": "Proper choice of data structure is very important.",
+    "start_time": 172.581,
+    "end_time": 175.381,
+    "timestamp": "00:02:52"
+  },
+  {
+    "video_name": "3 Data Structure Definition & Advantages",
+    "text": "This leads to space and time efficiency.",
+    "start_time": 175.381,
+    "end_time": 178.381,
+    "timestamp": "00:02:55"
+  },
+  {
+    "video_name": "3 Data Structure Definition & Advantages",
+    "text": "Second advantage is reusability.",
+    "start_time": 178.381,
+    "end_time": 181.241,
+    "timestamp": "00:02:58"
+  },
+  {
+    "video_name": "3 Data Structure Definition & Advantages",
+    "text": "One implementation can be used by multiple client programs.",
+    "start_time": 181.241,
+    "end_time": 184.881,
+    "timestamp": "00:03:01"
+  },
+  {
+    "video_name": "3 Data Structure Definition & Advantages",
+    "text": "Just one data structure can be used by multiple client programs.",
+    "start_time": 184.881,
+    "end_time": 188.561,
+    "timestamp": "00:03:04"
+  },
+  {
+    "video_name": "3 Data Structure Definition & Advantages",
+    "text": "So, reusability is also provided by data structures. Right?",
+    "start_time": 188.561,
+    "end_time": 192.521,
+    "timestamp": "00:03:08"
+  },
+  {
+    "video_name": "3 Data Structure Definition & Advantages",
+    "text": "Apart from this, the one advantage which we already know is abstraction.",
+    "start_time": 192.521,
+    "end_time": 196.561,
+    "timestamp": "00:03:12"
+  },
+  {
+    "video_name": "3 Data Structure Definition & Advantages",
+    "text": "Data structure is specified by an ADT.",
+    "start_time": 196.561,
+    "end_time": 198.561,
+    "timestamp": "00:03:16"
+  },
+  {
+    "video_name": "3 Data Structure Definition & Advantages",
+    "text": "ADT is the blueprint while data structure is the implementation.",
+    "start_time": 198.561,
+    "end_time": 201.561,
+    "timestamp": "00:03:18"
+  },
+  {
+    "video_name": "3 Data Structure Definition & Advantages",
+    "text": "So, we can say that provides a level of abstraction, right?",
+    "start_time": 201.561,
+    "end_time": 204.561,
+    "timestamp": "00:03:21"
+  },
+  {
+    "video_name": "3 Data Structure Definition & Advantages",
+    "text": "The client program doesn't have to worry about what is going inside.",
+    "start_time": 204.561,
+    "end_time": 207.561,
+    "timestamp": "00:03:24"
+  },
+  {
+    "video_name": "3 Data Structure Definition & Advantages",
+    "text": "It just sees the ADT, just the interface, nothing else.",
+    "start_time": 207.561,
+    "end_time": 211.561,
+    "timestamp": "00:03:27"
+  },
+  {
+    "video_name": "3 Data Structure Definition & Advantages",
+    "text": "So, these are the advantages of data structures which we should remember.",
+    "start_time": 211.561,
+    "end_time": 216.561,
+    "timestamp": "00:03:31"
+  },
+  {
+    "video_name": "3 Data Structure Definition & Advantages",
+    "text": "Okay?",
+    "start_time": 216.561,
+    "end_time": 217.561,
+    "timestamp": "00:03:36"
+  },
+  {
+    "video_name": "3 Data Structure Definition & Advantages",
+    "text": "Okay friends, this is it for now.",
+    "start_time": 217.561,
+    "end_time": 219.561,
+    "timestamp": "00:03:37"
+  },
+  {
+    "video_name": "3 Data Structure Definition & Advantages",
+    "text": "Thank you for watching this presentation.",
+    "start_time": 219.561,
+    "end_time": 221.561,
+    "timestamp": "00:03:39"
+  },
+  {
+    "video_name": "3 Data Structure Definition & Advantages",
+    "text": "you",
+    "start_time": 226.561,
+    "end_time": 227.061,
+    "timestamp": "00:03:46"
+  },
+  {
+    "video_name": "4 Types of Data Structures",
+    "text": "Here in this presentation, we will discuss different types of data structures.",
+    "start_time": 0.0,
+    "end_time": 4.24,
+    "timestamp": "00:00:00"
+  },
+  {
+    "video_name": "4 Types of Data Structures",
+    "text": "So, let's get started.",
+    "start_time": 4.24,
+    "end_time": 5.7599998,
+    "timestamp": "00:00:04"
+  },
+  {
+    "video_name": "4 Types of Data Structures",
+    "text": "Here we have two types of data structures.",
+    "start_time": 6.56,
+    "end_time": 8.559999,
+    "timestamp": "00:00:06"
+  },
+  {
+    "video_name": "4 Types of Data Structures",
+    "text": "One are linear data structures and the other one are non-linear data structures.",
+    "start_time": 8.559999,
+    "end_time": 13.36,
+    "timestamp": "00:00:08"
+  },
+  {
+    "video_name": "4 Types of Data Structures",
+    "text": "So, let's discuss them one by one.",
+    "start_time": 13.36,
+    "end_time": 15.599999,
+    "timestamp": "00:00:13"
+  },
+  {
+    "video_name": "4 Types of Data Structures",
+    "text": "A data structure is linear when all the elements are arranged in a linear or sequential order.",
+    "start_time": 16.16,
+    "end_time": 22.24,
+    "timestamp": "00:00:16"
+  },
+  {
+    "video_name": "4 Types of Data Structures",
+    "text": "If the elements are arranged in a linear order or sequential order,",
+    "start_time": 22.24,
+    "end_time": 25.84,
+    "timestamp": "00:00:22"
+  },
+  {
+    "video_name": "4 Types of Data Structures",
+    "text": "then we can say that a data structure is a linear data structure.",
+    "start_time": 25.84,
+    "end_time": 28.96,
+    "timestamp": "00:00:25"
+  },
+  {
+    "video_name": "4 Types of Data Structures",
+    "text": "For example, we have arrays, queues, link lists and stacks.",
+    "start_time": 28.96,
+    "end_time": 34.14,
+    "timestamp": "00:00:28"
+  },
+  {
+    "video_name": "4 Types of Data Structures",
+    "text": "These data structures are all linear data structures.",
+    "start_time": 34.14,
+    "end_time": 38.28,
+    "timestamp": "00:00:34"
+  },
+  {
+    "video_name": "4 Types of Data Structures",
+    "text": "There is one more way we can say that a particular data structure is a linear data structure.",
+    "start_time": 38.28,
+    "end_time": 42.64,
+    "timestamp": "00:00:38"
+  },
+  {
+    "video_name": "4 Types of Data Structures",
+    "text": "When each element of the data structure has only one predecessor and one successor,",
+    "start_time": 42.64,
+    "end_time": 48.44,
+    "timestamp": "00:00:42"
+  },
+  {
+    "video_name": "4 Types of Data Structures",
+    "text": "then we can say that that data structure is a linear data structure.",
+    "start_time": 48.44,
+    "end_time": 51.64,
+    "timestamp": "00:00:48"
+  },
+  {
+    "video_name": "4 Types of Data Structures",
+    "text": "We can see in this example that each element is having only one predecessor and one successor.",
+    "start_time": 51.64,
+    "end_time": 58.46,
+    "timestamp": "00:00:51"
+  },
+  {
+    "video_name": "4 Types of Data Structures",
+    "text": "Here you can see this element has only one predecessor and one successor Right Although there is one exception also The first element and the last elements you can see clearly first element has no predecessor and last element has no successor",
+    "start_time": 58.46,
+    "end_time": 72.1312,
+    "timestamp": "00:00:58"
+  },
+  {
+    "video_name": "4 Types of Data Structures",
+    "text": "So, this is an exception, although",
+    "start_time": 72.1312,
+    "end_time": 73.7312,
+    "timestamp": "00:01:12"
+  },
+  {
+    "video_name": "4 Types of Data Structures",
+    "text": "each and every element of the data structure",
+    "start_time": 73.7312,
+    "end_time": 75.7312,
+    "timestamp": "00:01:13"
+  },
+  {
+    "video_name": "4 Types of Data Structures",
+    "text": "has this property.",
+    "start_time": 75.7312,
+    "end_time": 76.7312,
+    "timestamp": "00:01:15"
+  },
+  {
+    "video_name": "4 Types of Data Structures",
+    "text": "That is, each element has one predecessor",
+    "start_time": 76.7312,
+    "end_time": 79.1312,
+    "timestamp": "00:01:16"
+  },
+  {
+    "video_name": "4 Types of Data Structures",
+    "text": "and one successor.",
+    "start_time": 79.1312,
+    "end_time": 80.4912,
+    "timestamp": "00:01:19"
+  },
+  {
+    "video_name": "4 Types of Data Structures",
+    "text": "Now, let's discuss non-linear data structures.",
+    "start_time": 80.4912,
+    "end_time": 83.7712,
+    "timestamp": "00:01:20"
+  },
+  {
+    "video_name": "4 Types of Data Structures",
+    "text": "A data structure is non-linear when all the elements",
+    "start_time": 83.7712,
+    "end_time": 87.0112,
+    "timestamp": "00:01:23"
+  },
+  {
+    "video_name": "4 Types of Data Structures",
+    "text": "are not arranged in a linear or sequential order.",
+    "start_time": 87.0112,
+    "end_time": 90.6112,
+    "timestamp": "00:01:27"
+  },
+  {
+    "video_name": "4 Types of Data Structures",
+    "text": "there is no linear arrangement of the elements.",
+    "start_time": 90.6112,
+    "end_time": 93.2712,
+    "timestamp": "00:01:30"
+  },
+  {
+    "video_name": "4 Types of Data Structures",
+    "text": "For example, here we can take this data structure.",
+    "start_time": 93.2712,
+    "end_time": 95.9512,
+    "timestamp": "00:01:33"
+  },
+  {
+    "video_name": "4 Types of Data Structures",
+    "text": "This is a tree data structure as I have labelled over here.",
+    "start_time": 95.9512,
+    "end_time": 98.5512,
+    "timestamp": "00:01:35"
+  },
+  {
+    "video_name": "4 Types of Data Structures",
+    "text": "This data structure is not linear.",
+    "start_time": 98.5512,
+    "end_time": 101.751205,
+    "timestamp": "00:01:38"
+  },
+  {
+    "video_name": "4 Types of Data Structures",
+    "text": "Why we are saying that this data structure is non-linear?",
+    "start_time": 101.751205,
+    "end_time": 105.0912,
+    "timestamp": "00:01:41"
+  },
+  {
+    "video_name": "4 Types of Data Structures",
+    "text": "You can see here that each node does not have one predecessor and one successor.",
+    "start_time": 105.0912,
+    "end_time": 110.0712,
+    "timestamp": "00:01:45"
+  },
+  {
+    "video_name": "4 Types of Data Structures",
+    "text": "You can see here that this node has one predecessor but it doesn't have one successor.",
+    "start_time": 110.0712,
+    "end_time": 115.0712,
+    "timestamp": "00:01:50"
+  },
+  {
+    "video_name": "4 Types of Data Structures",
+    "text": "It has two successors. Right?",
+    "start_time": 115.0712,
+    "end_time": 117.4712,
+    "timestamp": "00:01:55"
+  },
+  {
+    "video_name": "4 Types of Data Structures",
+    "text": "So, it is clear from this fact that this data structure is not a linear data structure.",
+    "start_time": 117.4712,
+    "end_time": 123.3112,
+    "timestamp": "00:01:57"
+  },
+  {
+    "video_name": "4 Types of Data Structures",
+    "text": "We have another example, that is graph.",
+    "start_time": 123.3112,
+    "end_time": 125.7112,
+    "timestamp": "00:02:03"
+  },
+  {
+    "video_name": "4 Types of Data Structures",
+    "text": "Graph is also a non-linear data structure.",
+    "start_time": 125.7112,
+    "end_time": 128.3512,
+    "timestamp": "00:02:05"
+  },
+  {
+    "video_name": "4 Types of Data Structures",
+    "text": "After understanding the difference between a linear data structure and a non data structure let even go further Even further distinction we can make We do have static data structures and dynamic data structures",
+    "start_time": 128.3512,
+    "end_time": 140.1424,
+    "timestamp": "00:02:08"
+  },
+  {
+    "video_name": "4 Types of Data Structures",
+    "text": "Let's discuss them one by one.",
+    "start_time": 140.1424,
+    "end_time": 141.8224,
+    "timestamp": "00:02:20"
+  },
+  {
+    "video_name": "4 Types of Data Structures",
+    "text": "In these types of data structures, the memory is allocated at compiled time.",
+    "start_time": 141.8224,
+    "end_time": 146.3424,
+    "timestamp": "00:02:21"
+  },
+  {
+    "video_name": "4 Types of Data Structures",
+    "text": "So, static data structures are those data structures where the memory is allocated at compiled time.",
+    "start_time": 146.3424,
+    "end_time": 152.3024,
+    "timestamp": "00:02:26"
+  },
+  {
+    "video_name": "4 Types of Data Structures",
+    "text": "Therefore, maximum size is fixed.",
+    "start_time": 152.3024,
+    "end_time": 154.9424,
+    "timestamp": "00:02:32"
+  },
+  {
+    "video_name": "4 Types of Data Structures",
+    "text": "The advantage of such data structure is that we can access data very fast.",
+    "start_time": 154.9424,
+    "end_time": 159.3824,
+    "timestamp": "00:02:34"
+  },
+  {
+    "video_name": "4 Types of Data Structures",
+    "text": "But on the other hand, disadvantage is that slower insertion and deletion operations are there.",
+    "start_time": 159.3824,
+    "end_time": 164.06241,
+    "timestamp": "00:02:39"
+  },
+  {
+    "video_name": "4 Types of Data Structures",
+    "text": "We can take an example like this.",
+    "start_time": 164.06241,
+    "end_time": 165.7424,
+    "timestamp": "00:02:44"
+  },
+  {
+    "video_name": "4 Types of Data Structures",
+    "text": "Array data structure is a static data structure.",
+    "start_time": 165.7424,
+    "end_time": 168.1424,
+    "timestamp": "00:02:45"
+  },
+  {
+    "video_name": "4 Types of Data Structures",
+    "text": "Here you can see that we have to fix the size beforehand.",
+    "start_time": 168.1424,
+    "end_time": 171.6624,
+    "timestamp": "00:02:48"
+  },
+  {
+    "video_name": "4 Types of Data Structures",
+    "text": "That is why we are fixing the size at compilation time.",
+    "start_time": 171.6624,
+    "end_time": 175.3424,
+    "timestamp": "00:02:51"
+  },
+  {
+    "video_name": "4 Types of Data Structures",
+    "text": "That is when we are creating the code.",
+    "start_time": 175.3424,
+    "end_time": 177.3424,
+    "timestamp": "00:02:55"
+  },
+  {
+    "video_name": "4 Types of Data Structures",
+    "text": "Maximum size is always fixed in the case of arrays.",
+    "start_time": 177.3424,
+    "end_time": 180.8624,
+    "timestamp": "00:02:57"
+  },
+  {
+    "video_name": "4 Types of Data Structures",
+    "text": "Advantage is obviously that we can access the elements very fast,",
+    "start_time": 180.8624,
+    "end_time": 184.2224,
+    "timestamp": "00:03:00"
+  },
+  {
+    "video_name": "4 Types of Data Structures",
+    "text": "but slower insertion and deletion.",
+    "start_time": 184.2224,
+    "end_time": 186.2224,
+    "timestamp": "00:03:04"
+  },
+  {
+    "video_name": "4 Types of Data Structures",
+    "text": "We will discuss this, why this disadvantage is there",
+    "start_time": 186.2224,
+    "end_time": 188.8224,
+    "timestamp": "00:03:06"
+  },
+  {
+    "video_name": "4 Types of Data Structures",
+    "text": "and why this advantage is there later.",
+    "start_time": 188.8224,
+    "end_time": 191.4224,
+    "timestamp": "00:03:08"
+  },
+  {
+    "video_name": "4 Types of Data Structures",
+    "text": "Right now, you should understand this point",
+    "start_time": 191.4224,
+    "end_time": 193.6224,
+    "timestamp": "00:03:11"
+  },
+  {
+    "video_name": "4 Types of Data Structures",
+    "text": "that with static data structures we have this advantage and this disadvantage Now let see what are dynamic data structures In these types of data structures the memory is allocated at run time",
+    "start_time": 193.6224,
+    "end_time": 205.81361,
+    "timestamp": "00:03:13"
+  },
+  {
+    "video_name": "4 Types of Data Structures",
+    "text": "Therefore, maximum size is flexible.",
+    "start_time": 205.81361,
+    "end_time": 208.15361,
+    "timestamp": "00:03:25"
+  },
+  {
+    "video_name": "4 Types of Data Structures",
+    "text": "When the memory will be allocated at run time, then user will decide the size.",
+    "start_time": 208.15361,
+    "end_time": 211.97362,
+    "timestamp": "00:03:28"
+  },
+  {
+    "video_name": "4 Types of Data Structures",
+    "text": "In that case, the size is flexible.",
+    "start_time": 211.97362,
+    "end_time": 213.97362,
+    "timestamp": "00:03:31"
+  },
+  {
+    "video_name": "4 Types of Data Structures",
+    "text": "Okay.",
+    "start_time": 213.97362,
+    "end_time": 214.47362,
+    "timestamp": "00:03:33"
+  },
+  {
+    "video_name": "4 Types of Data Structures",
+    "text": "Advantage is of course, faster insertion and deletion.",
+    "start_time": 214.47362,
+    "end_time": 217.25362,
+    "timestamp": "00:03:34"
+  },
+  {
+    "video_name": "4 Types of Data Structures",
+    "text": "But, again the disadvantage is slower access.",
+    "start_time": 217.25362,
+    "end_time": 220.53362,
+    "timestamp": "00:03:37"
+  },
+  {
+    "video_name": "4 Types of Data Structures",
+    "text": "So, you can clearly see that there is nothing like that one data structure is better than the other.",
+    "start_time": 220.53362,
+    "end_time": 224.59361,
+    "timestamp": "00:03:40"
+  },
+  {
+    "video_name": "4 Types of Data Structures",
+    "text": "the advantage of one is the disadvantage of the other.",
+    "start_time": 224.59361,
+    "end_time": 227.15361,
+    "timestamp": "00:03:44"
+  },
+  {
+    "video_name": "4 Types of Data Structures",
+    "text": "So, choice of data structures purely depends upon the user requirement.",
+    "start_time": 227.15361,
+    "end_time": 231.6336,
+    "timestamp": "00:03:47"
+  },
+  {
+    "video_name": "4 Types of Data Structures",
+    "text": "According to that, the data structure will get selected.",
+    "start_time": 231.6336,
+    "end_time": 234.11362,
+    "timestamp": "00:03:51"
+  },
+  {
+    "video_name": "4 Types of Data Structures",
+    "text": "So, there is nothing like that one data structure is better than the other.",
+    "start_time": 234.11362,
+    "end_time": 236.9136,
+    "timestamp": "00:03:54"
+  },
+  {
+    "video_name": "4 Types of Data Structures",
+    "text": "Okay? And let me give you the example of a dynamic data structure.",
+    "start_time": 236.9136,
+    "end_time": 240.1936,
+    "timestamp": "00:03:56"
+  },
+  {
+    "video_name": "4 Types of Data Structures",
+    "text": "You can see the linked list is the best example of a dynamic data structure.",
+    "start_time": 240.1936,
+    "end_time": 243.95361,
+    "timestamp": "00:04:00"
+  },
+  {
+    "video_name": "4 Types of Data Structures",
+    "text": "We will discuss this later, that how linked lists can be created,",
+    "start_time": 243.95361,
+    "end_time": 247.23361,
+    "timestamp": "00:04:03"
+  },
+  {
+    "video_name": "4 Types of Data Structures",
+    "text": "what are the advantages and disadvantages.",
+    "start_time": 247.23361,
+    "end_time": 249.6336,
+    "timestamp": "00:04:07"
+  },
+  {
+    "video_name": "4 Types of Data Structures",
+    "text": "We will discuss all these in subsequent lectures.",
+    "start_time": 249.6336,
+    "end_time": 252.03362,
+    "timestamp": "00:04:09"
+  },
+  {
+    "video_name": "4 Types of Data Structures",
+    "text": "Okay friends, this is it for now.",
+    "start_time": 252.03362,
+    "end_time": 254.03362,
+    "timestamp": "00:04:12"
+  },
+  {
+    "video_name": "4 Types of Data Structures",
+    "text": "Thank you for watching this presentation.",
+    "start_time": 254.03362,
+    "end_time": 256.0336,
+    "timestamp": "00:04:14"
+  }
+]
